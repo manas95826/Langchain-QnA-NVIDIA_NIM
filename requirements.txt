@@ -3,3 +3,4 @@ langchain
 langchain_nvidia_ai_endpoints
 langchain-text-splitters 
 faiss-cpu
+bs4
