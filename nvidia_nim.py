@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 import os
 
 # Set NVIDIA API Key from secrets
-nvidia_api_key=st.secrets['nvidia_api_key']
+os.environ['NVIDIA_API_KEY'] = "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"
 
 # Load documents
 loader = WebBaseLoader("https://python.langchain.com/docs/get_started/introduction")
