@@ -8,7 +8,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.runnables import chain
 
 # Accessing the API key securely using Streamlit secrets
-nvidia_api_key = "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"
+nvidia_api_key = st.secrets['nvidia_api_key']
 
 # Setting up loaders and models
 loader = WebBaseLoader("https://docs.smith.langchain.com/user_guide")
